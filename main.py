@@ -1,6 +1,13 @@
 import matplotlib.pyplot as plt
 import networkx as nx
 
+'''
+TO ADD IN PYCHARM DEPENDENCIES GO TO IN TOOLBAR GO TO 
+FILE->SETTINGS->PROJECT:(YOUR PROJECT NAME)->PYTHON INTERPRETER
+THEN CLICK THE PLUS AND INSTALL THE PACKAGES 
+'''
+
+
 G = nx.DiGraph()
 input = [('I', 1), ('A', 5), ('E', 4), ('F', 1), ('T', 2), ('S', 3)]
 
